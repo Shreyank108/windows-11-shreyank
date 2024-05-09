@@ -1,4 +1,9 @@
 @font-face {
+   font-family:callifornia;
+   src: url("/font/Callifornia.ttf");
+}
+
+@font-face {
    font-family: gilroy;
    src: url("/font/Gilroy-Regular.ttf");
  }
