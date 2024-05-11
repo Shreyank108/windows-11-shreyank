@@ -45,7 +45,7 @@ var tl = gsap.timeline({
       end: window.innerHeight * 3,
       scrub: true,
       pin: true,
-      markers: true,
+     
     },
   });
 
