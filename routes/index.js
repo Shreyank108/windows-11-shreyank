@@ -30,10 +30,11 @@ router.get('/blender_projects', function(req, res, next) {
   res.render('blender_proj');
 });
 router.get('/mobile_view', function(req, res, next) {
-  res.render('mobile');
+  res.render('trail');
 });
 router.get('/photos', function(req, res, next) {
   res.render('photos');
 });
+
 
 module.exports = router;
