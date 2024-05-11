@@ -32,5 +32,8 @@ router.get('/blender_projects', function(req, res, next) {
 router.get('/mobile_view', function(req, res, next) {
   res.render('mobile');
 });
+router.get('/photos', function(req, res, next) {
+  res.render('photos');
+});
 
 module.exports = router;

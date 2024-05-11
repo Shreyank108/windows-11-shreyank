@@ -1,0 +1,92 @@
+@font-face {
+    font-family: gilroy;
+    src: url("/font/Gilroy-Regular.ttf");
+  }
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing:border box ;
+    font-family: gilroy;
+}
+    html,body
+{ 
+        width:100% ;
+        height:100%;
+ }
+ body{ 
+    overflow-x: hidden;
+ }
+ #main{ 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px;
+    background-color: rgb(224, 221, 221);
+   
+ } 
+ #pexelate{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    z-index: 9;
+ }
+ .bar_point{ 
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #FFC0CB;
+    font-size: 50px;
+    flex-direction: column;
+ }
+ .bar_point p{ 
+    font-size: 20px;
+ }
+ .card{ 
+    width: 250px;
+    height: 350px;
+    
+
+ }
+ .card img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+ }
+ #line{ 
+    width: 5px;
+    height: 370vh;
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    background-color: orange;
+ }
+ #tupple{ 
+   width: 450px;
+   height: 250px;
+   overflow: hidden;
+ }
+ #tupple img{ 
+    rotate: -90deg;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    object-position: top;
+    object-fit: contain;
+    scale: 1.3;
+
+ }
+ #pexellate_big{ 
+    width: 700px;
+    height: 300px;
+    background-color: pink;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
