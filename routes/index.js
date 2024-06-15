@@ -35,6 +35,9 @@ router.get('/mobile_view', function(req, res, next) {
 router.get('/photos', function(req, res, next) {
   res.render('photos');
 });
+router.get('/*', function(req, res, next) {
+  res.redirect('/')
+});
 
 
 module.exports = router;

@@ -64,6 +64,9 @@ var tl = gsap.timeline({
   tl.to("#page6",{ 
     right:"0%"
   })
+  tl.to("#proj_page",{ 
+    left:"0%"
+  })
   tl.to("#page7",{ 
     bottom:"0%"
   })
